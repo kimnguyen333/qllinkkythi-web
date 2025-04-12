@@ -1,0 +1,27 @@
+# Bỏ qua thư mục chứa các file tải lên
+/uploads/
+
+# Thư viện được cài bằng Composer
+/vendor/
+
+# File tạm, log
+*.log
+*.tmp
+
+# File cấu hình bí mật (nếu có)
+.env
+*.env
+
+# Các thư mục hệ thống/IDE
+.vscode/
+.idea/
+
+# Hệ điều hành tự sinh ra
+.DS_Store
+Thumbs.db
+
+# Output từ export Excel/PDF nếu có lưu lại
+*.pdf
+*.xlsx
+*.xls
+*.csv
